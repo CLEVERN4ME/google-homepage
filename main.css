@@ -1,5 +1,41 @@
+body{
+    margin-top: 100px;
+}
+
 .logo{
     display: block;
     margin-left: auto;
     margin-right: auto;
-};
+    width: 300px;
+}
+
+.inputHolder{
+    margin: 0 auto;
+    width: 535px;
+}
+
+.typeHere{
+    width: 539px;
+}
+
+.buttons{
+    margin: 0 auto;
+    width: 230px;
+    margin-top: 10px;
+}
+
+.googleSearch{
+    width: 110px;
+    height: 35px;
+    font-size: 10px;
+    background-color: ##E6E6E6;
+    font-weight: bold;
+}
+
+.feelingLucky{
+    width: 110px;
+    height: 35px;
+    font-size: 10px;
+    backround-color: #E6E6E6;
+    font-weight: bold;
+}
