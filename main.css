@@ -2,6 +2,31 @@ body{
     margin-top: 100px;
 }
 
+#header{
+    list-style-type: none;
+    margin-top: -83px;
+    width: 200px;
+    float: right;
+    margin-right: 45px;
+}
+
+li{
+    display: inline;
+    padding: 9px;
+}
+
+#signIn{
+    float: right;
+    margin-top: -90px;
+    margin-right: 6px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 50px;
+}
+
 .logo{
     display: block;
     margin-left: auto;
@@ -38,4 +63,20 @@ body{
     font-size: 10px;
     backround-color: #E6E6E6;
     font-weight: bold;
+}
+
+.footerHolder{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#footerLeft{
+    float: left;
+    margin-left: -45px;
+}
+
+#footerRight{
+    float:right;
+    margin-right: 5px;
 }
